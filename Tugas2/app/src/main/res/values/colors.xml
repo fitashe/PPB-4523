@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPurple_200">#6200EE</color>
+    <color name="colorPurple">#FF3700B3</color>
+    <color name="colorAccent">#0384DA</color>
+    <color name="colorKuning">#5490EC</color>
+    <color name="colorBiru">#0A2F8C</color>
+    <color name="colorHitam">#FF000000</color>
+    <color name="colorPutih">#FFFFFFFF</color>
+</resources>

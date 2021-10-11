@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview16"
+        android:layout_width="209dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="536dp"
+        android:text="111202012710@mhs.dinus.ac.id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview15"
+        android:layout_width="209dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="264dp"
+        android:text="081225______"
+        app:layout_constraintBottom_toTopOf="@+id/textview16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
+    <TextView
+        android:id="@+id/textview14"
+        android:layout_width="209dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="224dp"
+        android:text="Heru Lestiawan"
+        app:layout_constraintBottom_toTopOf="@+id/textview15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <TextView
+        android:id="@+id/textview13"
+        android:layout_width="209dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="24dp"
+        android:text="Aktif"
+        app:layout_constraintBottom_toTopOf="@+id/textview14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.969" />
+
+    <TextView
+        android:id="@+id/A11.2020.12710"
+        android:layout_width="209dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="392dp"
+        android:layout_marginEnd="24dp"
+        android:text="A11.2020.12710"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="574dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text=":"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        tools:layout_editor_absoluteX="150dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="3dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginBottom="20dp"
+        android:text=":"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toStartOf="@+id/textview13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textview4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="3dp"
+        android:layout_height="19dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:text=":"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toStartOf="@+id/A11.2020.12710" />
+
+    <TextView
+        android:id="@+id/textview9"
+        android:layout_width="72dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="8dp"
+        android:text="Agama"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textview6"
+        android:layout_width="72dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="52dp"
+        android:text="No HP"
+        app:layout_constraintEnd_toStartOf="@+id/textView7"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <TextView
+        android:id="@+id/textview7"
+        android:layout_width="72dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="356dp"
+        android:text="Nama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview18"
+        android:layout_width="72dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="52dp"
+        android:text="NIM"
+        app:layout_constraintBottom_toTopOf="@id/textview4"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview7"
+        app:layout_constraintVertical_bias="0.465" />
+
+    <TextView
+        android:id="@+id/textview8"
+        android:layout_width="72dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="8dp"
+        android:text="Email"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview6" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="72dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="428dp"
+        android:text="Status"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview10"
+        android:layout_width="72dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="52dp"
+        android:text="Dosen Wali"
+        app:layout_constraintBottom_toTopOf="@+id/textview6"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview4" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="209dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="24dp"
+        android:text="Fita Sheila Gomiasti"
+        app:layout_constraintBottom_toTopOf="@+id/A11.2020.12710"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.971" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="3dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="32dp"
+        android:text=":"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toStartOf="@+id/textview2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textview7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="209dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="8dp"
+        android:text="Islam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textview16" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="155dp"
+        android:layout_height="246dp"
+        app:srcCompat="@drawable/fita"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="222dp"
+        android:layout_height="41dp"
+        android:background="#74E7F6"
+        android:text="  BIODATA DIRI"
+        app:autoSizeMaxTextSize="40dp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
