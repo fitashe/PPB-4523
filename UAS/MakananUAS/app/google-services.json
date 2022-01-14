@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "499096843572",
+    "firebase_url": "https://projectuas-b1c8a-default-rtdb.firebaseio.com",
+    "project_id": "projectuas-b1c8a",
+    "storage_bucket": "projectuas-b1c8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499096843572:android:125fb1ac291de01403a161",
+        "android_client_info": {
+          "package_name": "com.example.makananuas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499096843572-1sgq8quhk9dt7q9p3ncgt89b1e9dapa6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAehokXntdJCvs-UCbYMZgOoxjJnDhpSQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499096843572-1sgq8quhk9dt7q9p3ncgt89b1e9dapa6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
